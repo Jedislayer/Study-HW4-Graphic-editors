@@ -5,14 +5,14 @@
 
 body {
   background-image: url("../img/Bg.jpg");
-  /*background-size: 100%;*/
+  background-size: 100%;
   background-color: teal;
   font-family: Lato;
   color: #FFFFFF;
 }
 .header {
-  display:flex;
-  /*justify-content: space-around;*/
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .logo {
@@ -92,10 +92,13 @@ a {
   font-size: 72px;
   line-height: 86px;
   display: flex;
-  /*align-items: center;*/
+  align-items: center;
   justify-content:center;
   letter-spacing: 0.05em;
-  padding: 202px 431px 0px 431px;
+  padding: 257px 431px 0px 431px;
+}
+.main-text {
+  padding: 39px 450px 0px 450px;
 }
 .main-text-message {
   font-family: Lato;
@@ -106,10 +109,15 @@ a {
   text-align: center;
 }
 .sign-up {
+  padding: 64px 640px 187px 640px;
   display: flex;
   justify-content: center;
 }
 .sign-up-button {
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding: 17px 53px 16px 52px;
+  border: none;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
